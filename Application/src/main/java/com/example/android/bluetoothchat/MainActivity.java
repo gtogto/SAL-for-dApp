@@ -65,10 +65,10 @@ import com.android.volley.toolbox.StringRequest;
  * A simple launcher activity containing a summary sample description, sample log and a custom
  * {@link Fragment} which can display a view.
  * <p>
-                                                                                                                                                                                                                                                                                                                                     * For devices with displays with a width of 720dp or greater, the sample log is always visible,
-                                                                                                                                                                                                                                                                                                                                     * on other devices it's visibility is controlled by an item on the Action Bar.
-                                                                                                                                                                                                                                                                                                                                     */
-                                                                                                                                                                                                                                                                                                                                    public class MainActivity extends SampleActivityBase {
+ * on other devices it's visibility is controlled by an item on the Action Bar.
+ *
+ * */
+public class MainActivity extends SampleActivityBase {
 
     public static final String TAG = "MainActivity";
 
@@ -78,11 +78,11 @@ import com.android.volley.toolbox.StringRequest;
 
 
     //////////////////////////////////////////////////////////////////
-    // UDP Communication - dmkim
+    // UDP Communication - dmkim (test ip)
     public static final String sIP = "118.221.46.185";
     public static final int sPORT = 5000;
 
-    // SERVER Communication - kuloeh
+    // SERVER Communication - kuloeh (dApp ip)
     public static final String wasIP ="125.131.9.88";
     public static final int wasPORT = 8082;
 
@@ -235,14 +235,11 @@ import com.android.volley.toolbox.StringRequest;
     }
 
 
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
 
     // UDP
     //데이터 보내는 쓰레드 클래스

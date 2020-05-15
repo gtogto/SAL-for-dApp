@@ -23,6 +23,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Gradle: httpcore-4.4.12.httpcore-4.4.12" level="project" />
   </component>
 </module>

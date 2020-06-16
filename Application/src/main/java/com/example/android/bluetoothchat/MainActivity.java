@@ -209,15 +209,20 @@ public class MainActivity extends SampleActivityBase {
         mBtnServerTest_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                String server_url = wasIP+":"+wasPORT+"/api/mobileTest";
-                String server_url = "http://125.131.9.88:8082/api/mobileTest";
+                //String server_url = wasIP+":"+wasPORT+"/api/mobileTest";
+                //String server_url = "http://125.131.9.88:8082/api/mobileTest";
+                //String server_url = "http://125.131.9.88:8082/api/getDeviceList";
+                String server_url = wasIP+":"+wasPORT+"/api/getDeviceList";
                 Toast.makeText(getApplicationContext(), server_url, Toast.LENGTH_SHORT).show();
+
                 try {
                     StringRequest stringRequest = new StringRequest(Request.Method.GET, server_url, new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
-                            Toast.makeText(getApplicationContext(),"Response :" + response.toString(), Toast.LENGTH_LONG).show();//display the response on screen
+                            Toast.makeText(getApplicationContext(),
+                                    "Response :" + response.toString(), Toast.LENGTH_LONG).show(); //display the response on screen
                             requestQueue.stop();
+                            System.out.println("Response :" + response.toString());
                         }
                     }, new Response.ErrorListener() {
                         @Override

@@ -1,4 +1,4 @@
-#Thu May 14 16:08:02 KST 2020
+#Wed May 27 14:34:40 KST 2020
 base.0=E\:\\BluetoothChat_v3\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

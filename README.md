@@ -20,6 +20,7 @@ The sample demonstrates the following, using the [Bluetooth API][1]:
 4. [Establishing RFCOMM][5] channels/sockets
 5. [Connecting][6] to a remote device
 6. [Transfering][7] data over Bluetooth
+7. [GTO][8] gto GitHub
 
 [1]: http://developer.android.com/guide/topics/connectivity/bluetooth.html
 [2]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#Permissions
@@ -28,6 +29,7 @@ The sample demonstrates the following, using the [Bluetooth API][1]:
 [5]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ConnectingDevices
 [6]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ConnectingAsAClient
 [7]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ManagingAConnection
+[8]: https://github.com/gtogto
 
 Pre-requisites
 --------------

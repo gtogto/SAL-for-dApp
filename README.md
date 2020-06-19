@@ -39,7 +39,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="screenshots/3-chat.png" height="400" alt="Screenshot"/> 
+<img src="https://user-images.githubusercontent.com/30851459/85107433-eb1a9a00-b248-11ea-85d6-313ea576e46a.png"/>
 
 Getting Started
 ---------------
